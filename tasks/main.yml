@@ -6,7 +6,7 @@
 
 - name: Deploy custom scripts
   template:
-    src: logrotate.d.j2
+    src: logrotate-custom.j2
     dest: "{{ logrotate_conf_dir }}{{ item.name }}"
   with_items: "{{ logrotate_scripts }}"
   when: logrotate_scripts is defined
