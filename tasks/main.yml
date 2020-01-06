@@ -10,3 +10,9 @@
     dest: "{{ logrotate_conf_dir }}{{ item.name }}"
   with_items: "{{ logrotate_scripts }}"
   when: logrotate_scripts is defined
+
+- name: Delete not needed scripts
+  file:
+    path: "{{ logrotate_scripts_to_remove }}"
+    state: absent
+  when: logrotate_scripts_to_remove is defined

@@ -14,6 +14,10 @@ The path of your custom scripts.
 ```yml
 logrotate_conf_dir: "/etc/logrotate.d/"
 ```
+List of scripts to remove. For example, /etc/logrotate.d/rsyslog
+```yml
+logrotate_scripts_to_remove: []
+```
 This variable is used to configure custom scripts. 
  - **name**: Define the name of the file
  - **paths**: List of paths for the log rotation

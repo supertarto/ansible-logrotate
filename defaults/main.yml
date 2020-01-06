@@ -1,5 +1,6 @@
 ---
 logrotate_conf_dir: "/etc/logrotate.d/"
+logrotate_scripts_to_remove: []
 logrotate_scripts: []
 # Exemple
 #  - name: mail
