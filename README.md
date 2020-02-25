@@ -1,12 +1,12 @@
 # Ansible Logrotate
 [![Build Status](https://travis-ci.org/supertarto/ansible-logrotate.svg?branch=master)](https://travis-ci.org/supertarto/ansible-logrotate)
+
 Install and configure logrotate with Ansible
 
 ## Requirements
 None
 
 ## Tested plateform
-* Debian 9 (Stretch)
 * Debian 10 (Buster)
 
 ## Role variables
