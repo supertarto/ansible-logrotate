@@ -1,5 +1,5 @@
 # Ansible Logrotate
-[![Build Status](https://travis-ci.com/supertarto/ansible-logrotate.svg?branch=master)](https://travis-ci.com/supertarto/ansible-logrotate)
+[![CI](https://github.com/supertarto/ansible-logrotate/workflows/CI/badge.svg?event=push)](https://github.com/supertarto/ansible-logrotate/actions?query=workflow%3ACI)
 
 Install and configure logrotate with Ansible
 
